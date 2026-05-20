@@ -129,6 +129,9 @@ modal run main.py
 Deploy the backend:
 
 ```bash
+# On Windows PowerShell, if you get a 'charmap' encoding error, run this first:
+# $env:PYTHONIOENCODING="utf-8"
+
 modal deploy main.py
 ```
 
